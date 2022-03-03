@@ -1,0 +1,22 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "inlineSources": true,
+    "target": "es2015",
+    "module": "es2020",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "resolveJsonModule": true
+  }
+}

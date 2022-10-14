@@ -39,7 +39,7 @@ export class ExpiringStorage {
         let item = localStorage.getItem(key);
         if (item != null) {
             let expiringItem = <ExpiringStorageItem>JSON.parse(item);
-            if (this.isExpired(expiringItem)) {
+            if (!this.isExpired(expiringItem)) {
                 return expiringItem.value;
             } else {
                 localStorage.removeItem(key);

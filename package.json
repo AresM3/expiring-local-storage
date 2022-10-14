@@ -1,6 +1,6 @@
 {
   "name": "@aresm3/expiring-local-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {},
   "devDependencies": {
     "gulp": "^4.0.2",
